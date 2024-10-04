@@ -1,0 +1,46 @@
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 140px;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+ .toolbar-button {
+    height: 37px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0%;
+}
+
+.selected {
+    color: white;
+    background-color: black;
+}
+  
+.project-list {
+    display: flex;
+    margin-left: -20px; /* Отрицательный отступ для компенсации паддинга */
+    width: auto;
+}
+
+.project-list-column {
+    padding-left: 20px; 
+}
+
+.project-item {
+    margin-bottom: 20px; 
+}
+
+.project-image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
